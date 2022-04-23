@@ -1,6 +1,7 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.scss';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Gestion from './pages/Gestion/Gestion';
 import Home from './pages/Home/Home';
@@ -21,6 +22,7 @@ function App() {
         <Route path='productos' element={<Productos />} />
         <Route path='gestion' element={<Gestion />} />
       </Routes>
+      <Footer />
     </Router>
 
   );

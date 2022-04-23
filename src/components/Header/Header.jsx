@@ -20,9 +20,12 @@ const Header = () => {
                     {navbarList.map((item,index) => {   
                       return ( 
                             <li key={index}>
-                                <img src={`./img/${item}_icon.svg`} alt=''/>
+                                
                             
-                                <Link to={item.toLowerCase()}>{item}</Link>
+                                <Link to={item.toLowerCase()}>
+                                    <img src={`./img/${item}_icon.svg`} alt=''/>
+                                    {item}
+                                </Link>
                             </li>
                         )
                     })}

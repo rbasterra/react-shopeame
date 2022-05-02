@@ -15,12 +15,12 @@ const Footer = () => {
         <ul>
             {RRSS.map((rs, index) => {
                 return (
-                    <>
-                        <li key={index}>
+                    <div key={index}>
+                        <li >
                             {rs} 
                         </li>
                         {index < RRSS.length - 1 ? <span>|</span> : null}
-                    </>)
+                    </div>)
             })
             }
         </ul>

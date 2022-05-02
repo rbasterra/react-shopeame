@@ -1,0 +1,17 @@
+.shopeame {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.home {
+    & h1 {
+        text-align: center;
+    }
+
+    margin: 4rem 2rem;
+
+    &__paragraph {
+        text-align: justify;
+        margin-top: 2rem;
+    }
+}

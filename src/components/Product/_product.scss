@@ -1,0 +1,13 @@
+.product {
+    width: 200px;
+    // height: 200px;
+    padding: 2rem;
+
+    & img {
+        width: 100%;
+
+    }
+    & span {
+        padding: 0 10px 0 0;
+    }
+}
